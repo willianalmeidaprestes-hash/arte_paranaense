@@ -1,1 +1,78 @@
+body {
+    background-color: #f4flea;
+    color: #222222;
+    font-family: Airal, sans-serif;
+    margin: 0;
+}
 
+header {
+    background-color: #6b2d5c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #6b2d5c;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+nav {
+    margin-top: 20;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color #9b4d83
+    padding: 10px 15px
+    border-radius: 8px;
+    margin: 5px;
+    displey: inline-block;
+}
+
+nav a:hover {
+    background-color: #c77dff;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    bordetr-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 8px;
+}
+
+card {
+    background-color: #f3d9fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #6b2d5c;
+    
+}
