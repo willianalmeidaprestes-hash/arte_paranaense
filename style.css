@@ -1,13 +1,23 @@
+:root{
+    --cor-fundo:#f4f1ea;
+    --cor-texto:#222222;
+    --cor-principal:#6b2d5c;
+    --cor-secundaria:;
+    --cor-card:;
+    --cor-superficie:;
+    --cor-
+}
+
 body {
-    background-color: #f4f1ea;
-    color: #222222;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var();
     text-align: center;
     padding: 30px;
 }
@@ -17,13 +27,14 @@ h1 {
 }
 
 h2 {
-    color: #6b2d5c;
+    color: var(--cor-principal);
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
 }
+
 nav {
     margin-top: 20;
 }
@@ -76,13 +87,20 @@ figcaption {
     border-left: 6px solid #6b2d5c;
     border-radius: 10px;
 }
-.card h3{
+
+.card h3 {
     margin-top: 0;
 }
-footer{
+
+footer {
     background-color: #222222;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
+
+button:hover {
+    background-color: #9b4d83
+}
+
